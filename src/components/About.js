@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 const About = () => {
     
     return (
-        <div>
+        <div style={styles.container}>
             <h1>About</h1>
             <h2>Hi. I'm Christian.</h2>
             <img src={require("../assets/images/profile.jpg")} height="100" width="100" />
@@ -12,5 +13,17 @@ const About = () => {
         </div>
     )
 }
+
+const styles = {
+    container:{
+        display:'grid',
+        gridTemplateColumns: '30% 40% 30%',
+        gridTemplateRows: '33% 33% 33%',
+        width: '100%',
+        backgroundColor: '#F7F7F2',
+    }
+}
+
+
 
 export default About;
