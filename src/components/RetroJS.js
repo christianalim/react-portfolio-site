@@ -8,6 +8,8 @@ const RetroJS = () => {
         <div style={styles.projectOne}>
             <div style={styles.projectInfo}>
                 <h2>RetroJS</h2>
+                <a href="https://retrojs-frontend.herokuapp.com">Live Demo</a>
+                <a href="https://github.com/christianalim/retroJS">Github</a>
                 <p>StudyHub is an iOS app that empowers people to find public workspaces. I built it using React Native and Redux for the front-end, and Ruby on Rails with PostgreSQL for the back end. This project also utilizes Google Maps and Cloudinary APIs for location services and image hosting.
                 </p>
                 <ul>

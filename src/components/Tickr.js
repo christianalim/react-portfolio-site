@@ -15,20 +15,24 @@ const Tickr = () => {
             </div>
             <div style={styles.projectInfo}>
                 <h2>Tickr</h2>
-                <p>StudyHub is an iOS app that empowers people to find public workspaces. I built it using React Native and Redux for the front-end, and Ruby on Rails with PostgreSQL for the back end. This project also utilizes Google Maps and Cloudinary APIs for location services and image hosting.
+                <a href="#">Live Demo</a>
+                <a href="https://github.com/christianalim/Tickr-frontend">Github Front-End</a>
+                <a href="https://github.com/christianalim/Tickr-backend">Github Back-End</a>
+                <p>TICKR is a web application that allows users to track their stock portfolio's performance in real time. It was built with React and Ruby on Rails.
+
                 </p>
                 <ul>
                     <li>
-                        Created and designed user interface using React Native and Redux
+                    Built complex Rails API backend with PostgreSQL using JWT authorization to establish user and portfolio relationships
                     </li>
                     <li>
-                        Developed Rails API and PostgreSQL backend with endpoints for users, reviews, hubs, and images
+                    Produced React JS frontend with Material UI to showcase portfolio information and news
                     </li>
                     <li>
-                        Utilized Google Maps API and Cloudinary API for location services and cloud image hosting to display user/hubs locations
+                    Created data visualization for stocks showcasing time and price data using Recharts API
                     </li>
                     <li>
-                        Employed use of JSON Web Tokens and AsyncStorage to store encrypted user information client-side
+                    Incorporated multiple third-party APIs to fetch real-time stock price data and stock-specific news
                     </li>
                 </ul>
             </div>
