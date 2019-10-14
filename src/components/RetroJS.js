@@ -10,20 +10,18 @@ const RetroJS = () => {
                 <h2>RetroJS</h2>
                 <a href="https://retrojs-frontend.herokuapp.com">Live Demo</a>
                 <a href="https://github.com/christianalim/retroJS">Github</a>
-                <p>StudyHub is an iOS app that empowers people to find public workspaces. I built it using React Native and Redux for the front-end, and Ruby on Rails with PostgreSQL for the back end. This project also utilizes Google Maps and Cloudinary APIs for location services and image hosting.
+                <p>RetroJS is a 2D table-tennis game made using JavaScript and Ruby on Rails. 
+
                 </p>
                 <ul>
                     <li>
-                        Created and designed user interface using React Native and Redux
+                        Generated Rails API backend to track players and games
                     </li>
                     <li>
-                        Developed Rails API and PostgreSQL backend with endpoints for users, reviews, hubs, and images
+                        Employed HTML5 Canvas to render/animate play field and characters
                     </li>
                     <li>
-                        Utilized Google Maps API and Cloudinary API for location services and cloud image hosting to display user/hubs locations
-                    </li>
-                    <li>
-                        Employed use of JSON Web Tokens and AsyncStorage to store encrypted user information client-side
+                        Designed and implemented game states and animation in JavaScript to allow  customizable gameplay
                     </li>
                 </ul>
             </div>
