@@ -29,7 +29,7 @@ const StudyHub = () => {
             </div>
             <div style={styles.videoHolder}>
                 <YouTube
-                    videoId="2g811Eo7K8U"
+                    videoId="i2snhJvMtQ"
                     opts={opts}
                     onReady={_onReady}
                 />
