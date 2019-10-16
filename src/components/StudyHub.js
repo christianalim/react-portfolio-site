@@ -8,6 +8,8 @@ const StudyHub = () => {
         <div style={styles.projectOne}>
             <div style={styles.projectInfo}>
                 <h2>StudyHub</h2>
+                <a href="https://github.com/christianalim/studyhub-frontend">Github Front-end</a>
+                <a href="https://github.com/christianalim/studyhub-backend">Github Back-end</a>
                 <p>StudyHub is an iOS app that empowers people to find public workspaces. I built it using React Native and Redux for the front-end, and Ruby on Rails with PostgreSQL for the back end. This project also utilizes Google Maps and Cloudinary APIs for location services and image hosting.
                 </p>
                 <ul>
