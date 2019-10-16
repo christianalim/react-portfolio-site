@@ -58,7 +58,7 @@ const opts = {
     height: '400rem',
     width: '500rem',
     playerVars: { // https://developers.google.com/youtube/player_parameters
-      autoplay: 1
+      autoplay: 0
     }
 };
 const _onReady = (event) => {

@@ -29,7 +29,7 @@ const StudyHub = () => {
             </div>
             <div style={styles.videoHolder}>
                 <YouTube
-                    videoId="i2snhJvMtQ"
+                    videoId="_i2snhJvMtQ"
                     opts={opts}
                     onReady={_onReady}
                 />
@@ -59,7 +59,7 @@ const opts = {
     height: '400rem',
     width: '500rem',
     playerVars: { // https://developers.google.com/youtube/player_parameters
-      autoplay: 1
+      autoplay: 0
     }
 };
 const _onReady = (event) => {

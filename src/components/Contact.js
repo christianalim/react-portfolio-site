@@ -40,7 +40,7 @@ const styles = {
     },
     form:{
         gridColumnStart: 2,
-        gridRowStart: 2
+        gridRowStart: 2,
     },
     title:{
         gridColumnStart: 2,
@@ -50,7 +50,8 @@ const styles = {
         borderRadius: 10
     },
     fieldset:{
-        borderRadius: 10
+        borderRadius: 10,
+        backgroundColor:'white'
     },
     formInput:{
         borderBottomStyle: 'solid',
