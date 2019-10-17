@@ -151,7 +151,7 @@ const styles = {
     // gridColumnStart: 3,
     // gridRowStart: 1,
     float: "left",
-    display: "block",
+    display: "inline-block",
     color: "#f2f2f2",
     textAlign: "center",
     padding: "14px",
