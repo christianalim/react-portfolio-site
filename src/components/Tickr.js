@@ -49,7 +49,11 @@ const styles= {
     },
     projectInfo:{
         display:'flex',
-        flexDirection:'column'
+        flexDirection:'column',
+        backgroundColor:'#f2f2f2',
+        borderRadius: 10,
+        padding: 10,
+        margin: 10
     },
     videoHolder:{
         display:'flex',

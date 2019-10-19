@@ -144,18 +144,12 @@ const styles = {
     justifySelf: "center"
   },
   nav: {
-    // display:'flex',
-    // flexDirection:'row',
-    // justifyContent:'space-around',
-    // color:'#F7F7F2',
-    // gridColumnStart: 3,
-    // gridRowStart: 1,
-    float: "left",
-    display: "inline-block",
+    float: "right",
+    display: "flex",
+    flexDirection:'row',
+    alignItems:'space-around',
     color: "#f2f2f2",
-    textAlign: "center",
     padding: "14px",
-    textDecoration: 'none',
     position: "fixed"
   }
 };
