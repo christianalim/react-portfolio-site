@@ -39,13 +39,13 @@ const Home = () => {
           style={styles.rightCloud}
         />
       </div>
-      <div style={styles.nav}>
+      {/* <div style={styles.nav}>
         <p>Home</p>
         <p>About</p>
         <p>Work</p>
         <p>Resume</p>
         <p>Contact</p>
-      </div>
+      </div> */}
     </div>
   );
 };
