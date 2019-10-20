@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <div>
             <h1>Resume</h1>
-            <a href="../assets/resume.pdf">Download Resume!</a>
+            <a href="../assets/resume.pdf" download>Download Resume!</a>
         </div>
     )
 }
