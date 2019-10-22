@@ -10,9 +10,11 @@ const Tickr = () => {
                     <img src={require("../assets/images/tickr.png")} style={styles.image} alt="tickr"/>
                 </div>
                 <h2>Tickr</h2>
-                <a href="https://tickr-stock.herokuapp.com/">Live Demo</a>
-                <a href="https://github.com/christianalim/Tickr-frontend">Github Front-End</a>
-                <a href="https://github.com/christianalim/Tickr-backend">Github Back-End</a>
+                <div style={styles.linkHolder}>
+                    <a href="https://tickr-stock.herokuapp.com/">Live Demo</a>
+                    <a href="https://github.com/christianalim/Tickr-frontend">Github Front-End</a>
+                    <a href="https://github.com/christianalim/Tickr-backend">Github Back-End</a>
+                </div>
                 <p>TICKR is a web application that allows users to track their stock portfolio's performance in real time. It was built with React and Ruby on Rails.
 
                 </p>
@@ -45,6 +47,7 @@ const styles= {
     projectInfo:{
         display:'flex',
         flexDirection:'column',
+        alignItems:'center',
         backgroundColor:'#f2f2f2',
         borderRadius: 10,
         padding: 10,
@@ -52,11 +55,18 @@ const styles= {
     },
     image:{
         height:'70%',
-        width:'70%'
+        width:'70%',
+        borderRadius: 10,
+        border: '1px solid #ddd'
     },
     imageHolder:{
         display:'flex',
         justifyContent:'center'
+    },
+    linkHolder:{
+        display:'flex',
+        width:'80%',
+        justifyContent:'space-around'
     }
 }
 

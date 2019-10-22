@@ -7,12 +7,13 @@ const RetroJS = () => {
                 <div style={styles.imageHolder}>
                     <img src={require("../assets/images/retroJSpic.png")} style={styles.image} alt="retroPic"/>
                 </div>
-                <h2>RetroJS</h2>
-                <a href="https://retrojs-frontend.herokuapp.com">Live Demo</a>
-                <a href="https://github.com/christianalim/retroJS">Github</a>
-                <p>RetroJS is a 2D table-tennis game made using JavaScript and Ruby on Rails. 
+                <h1>RetroJS</h1>
+                <div style={styles.linkHolder}>
+                    <a href="https://retrojs-frontend.herokuapp.com">Live Demo</a>
+                    <a href="https://github.com/christianalim/retroJS">Github</a>
+                </div>
 
-                </p>
+                <p>RetroJS is a 2D table-tennis game made using JavaScript and Ruby on Rails. </p>
                 <ul>
                     <li>
                         Generated Rails API backend to track players and games
@@ -40,6 +41,7 @@ const styles= {
     projectInfo:{
         display:'flex',
         flexDirection:'column',
+        alignItems:'center',
         backgroundColor:'#f2f2f2',
         borderRadius: 10,
         padding: 10,
@@ -47,11 +49,18 @@ const styles= {
     },
     image:{
         height:'70%',
-        width:'70%'
+        width:'70%',
+        borderRadius: 10,
+        border: '1px solid #ddd'
     },
     imageHolder:{
         display:'flex',
         justifyContent:'center'
+    },
+    linkHolder:{
+        display:'flex',
+        width:'80%',
+        justifyContent:'space-around'
     }
 }
 
