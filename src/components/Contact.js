@@ -44,6 +44,8 @@ const styles = {
     },
     title:{
         gridColumnStart: 2,
+        display:'flex',
+        justifyContent:'center',
     },
     textarea:{
         width: '100%',

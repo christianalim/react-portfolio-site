@@ -1,6 +1,4 @@
 import React from 'react';
-import YouTube from 'react-youtube';
-
 
 
 const StudyHub = () => {
@@ -8,7 +6,7 @@ const StudyHub = () => {
         <div style={styles.projectOne}>
             <div style={styles.projectInfo}>
                 <div style={styles.imageHolder}>
-                    <img src={require("../assets/images/studyhubscreen.png")} style={styles.image}/>
+                    <img src={require("../assets/images/studyhubscreen.png")} style={styles.image} alt="studyhubscreenshot"/>
                 </div>
                 <div style={styles.description}>
                     <h2>StudyHub</h2>
@@ -66,17 +64,5 @@ const styles= {
     }
 }
 
-//For youtube players
-const opts = {
-    height: '100%',
-    width: '100%',
-    playerVars: { // https://developers.google.com/youtube/player_parameters
-      autoplay: 0
-    }
-};
-const _onReady = (event) => {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-}
 
 export default StudyHub;

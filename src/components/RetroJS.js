@@ -5,7 +5,7 @@ const RetroJS = () => {
         <div style={styles.projectOne}>
             <div style={styles.projectInfo}>
                 <div style={styles.imageHolder}>
-                    <img src={require("../assets/images/retroJSpic.png")} style={styles.image}/>
+                    <img src={require("../assets/images/retroJSpic.png")} style={styles.image} alt="retroPic"/>
                 </div>
                 <h2>RetroJS</h2>
                 <a href="https://retrojs-frontend.herokuapp.com">Live Demo</a>

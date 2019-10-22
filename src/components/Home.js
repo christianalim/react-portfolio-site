@@ -8,18 +8,21 @@ const Home = () => {
         <img
           src={require("../assets/images/cloud.png")}
           style={styles.leftCloud}
+          alt=""
         />
       </div>
       <div style={styles.centerCloudHolder}>
         <img
           src={require("../assets/images/cloud.png")}
           style={styles.centerCloud}
+          alt=""
         />
       </div>
       <div style={styles.leftMountainHolder}>
         <img
           src={require("../assets/images/leftmountain.png")}
           style={styles.leftmountains}
+          alt=""
         />
       </div>
       <div style={styles.card}>
@@ -32,12 +35,14 @@ const Home = () => {
         <img
           src={require("../assets/images/rightmountain.png")}
           style={styles.rightmountains}
+          alt=""
         />
       </div>
       <div style={styles.rightCloudHolder}>
         <img
           src={require("../assets/images/cloud.png")}
           style={styles.rightCloud}
+          alt=""
         />
       </div>
     </div>

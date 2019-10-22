@@ -1,5 +1,4 @@
 import React from 'react'
-import YouTube from 'react-youtube';
 import StudyHub from './StudyHub';
 import Tickr from './Tickr';
 import RetroJS from './RetroJS';

@@ -1,6 +1,4 @@
 import React from 'react';
-import YouTube from 'react-youtube';
-
 
 
 const Tickr = () => {
@@ -9,7 +7,7 @@ const Tickr = () => {
             
             <div style={styles.projectInfo}>
                 <div style={styles.imageHolder}>
-                    <img src={require("../assets/images/tickr.png")} style={styles.image}/>
+                    <img src={require("../assets/images/tickr.png")} style={styles.image} alt="tickr"/>
                 </div>
                 <h2>Tickr</h2>
                 <a href="https://tickr-stock.herokuapp.com/">Live Demo</a>
