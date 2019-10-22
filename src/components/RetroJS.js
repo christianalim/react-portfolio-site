@@ -1,12 +1,12 @@
 import React from 'react';
-import YouTube from 'react-youtube';
-
-
 
 const RetroJS = () => {
     return(
         <div style={styles.projectOne}>
             <div style={styles.projectInfo}>
+                <div style={styles.imageHolder}>
+                    <img src={require("../assets/images/retroJSpic.png")} style={styles.image}/>
+                </div>
                 <h2>RetroJS</h2>
                 <a href="https://retrojs-frontend.herokuapp.com">Live Demo</a>
                 <a href="https://github.com/christianalim/retroJS">Github</a>
@@ -25,13 +25,7 @@ const RetroJS = () => {
                     </li>
                 </ul>
             </div>
-             <div style={styles.videoHolder}>
-                <YouTube
-                    videoId="2g811Eo7K8U"
-                    opts={opts}
-                    onReady={_onReady}
-                />
-            </div>
+             
            
         </div>
     )
@@ -51,23 +45,16 @@ const styles= {
         padding: 10,
         margin: 10
     },
-    videoHolder:{
+    image:{
+        height:'70%',
+        width:'70%'
+    },
+    imageHolder:{
         display:'flex',
-        justifyContent: 'center'
+        justifyContent:'center'
     }
 }
 
-//For youtube players
-const opts = {
-    height: '400rem',
-    width: '500rem',
-    playerVars: { // https://developers.google.com/youtube/player_parameters
-      autoplay: 0
-    }
-};
-const _onReady = (event) => {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-}
+
 
 export default RetroJS;

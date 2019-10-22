@@ -6,16 +6,13 @@ import YouTube from 'react-youtube';
 const Tickr = () => {
     return(
         <div style={styles.projectOne}>
-             <div style={styles.videoHolder}>
-                <YouTube
-                    videoId="2g811Eo7K8U"
-                    opts={opts}
-                    onReady={_onReady}
-                />
-            </div>
+            
             <div style={styles.projectInfo}>
+                <div style={styles.imageHolder}>
+                    <img src={require("../assets/images/tickr.png")} style={styles.image}/>
+                </div>
                 <h2>Tickr</h2>
-                <a href="#">Live Demo</a>
+                <a href="https://tickr-stock.herokuapp.com/">Live Demo</a>
                 <a href="https://github.com/christianalim/Tickr-frontend">Github Front-End</a>
                 <a href="https://github.com/christianalim/Tickr-backend">Github Back-End</a>
                 <p>TICKR is a web application that allows users to track their stock portfolio's performance in real time. It was built with React and Ruby on Rails.
@@ -55,23 +52,16 @@ const styles= {
         padding: 10,
         margin: 10
     },
-    videoHolder:{
+    image:{
+        height:'70%',
+        width:'70%'
+    },
+    imageHolder:{
         display:'flex',
-        justifyContent: 'center'
+        justifyContent:'center'
     }
 }
 
-//For youtube players
-const opts = {
-    height: '400rem',
-    width: '500rem',
-    playerVars: { // https://developers.google.com/youtube/player_parameters
-      autoplay: 0
-    }
-};
-const _onReady = (event) => {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-}
+
 
 export default Tickr;
