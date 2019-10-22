@@ -63,8 +63,6 @@ const styles= {
     image:{
         height:'70%',
         width:'70%',
-        borderRadius: 10,
-        border: '1px solid #ddd'
     },
     imageHolder:{
         display:'flex',
