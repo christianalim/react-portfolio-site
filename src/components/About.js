@@ -14,15 +14,44 @@ const About = () => {
                 </div>
                 <div style={styles.technologies}>
                     <h4>Here are a few technologies I've been working with:</h4>
-                    <ul style={styles.ul}>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React</li>
-                        <li>React Native</li>
-                        <li>HTML5 & CSS</li>
-                        <li>Ruby</li>
-                        <li>Ruby on Rails</li>
-                        <li>PostgreSQL</li>
-                    </ul>
+                    <div style={styles.techList}>
+                        <div>
+                            <img src={require("../assets/images/webIcons/javascripticon.png")} style={styles.techIcons}/>
+                            <h6>JavaScript (ES6+)</h6>
+                        </div>
+                        <div>
+                            <img src={require("../assets/images/webIcons/reactjs.png")} style={styles.techIcons}/>
+                            <h6>React</h6>
+                        </div>
+                        <div>
+                            <img src={require("../assets/images/webIcons/reactjs.png")} style={styles.techIcons}/>
+                            <h6>React Native</h6>
+                        </div>
+                        <div>
+                            <img src={require("../assets/images/webIcons/html.png")} style={styles.techIcons}/>
+                            <h6>HTML5</h6>
+                        </div>
+                        <div>
+                            <img src={require("../assets/images/webIcons/css.png")} style={styles.techIcons}/>
+                            <h6>CSS3</h6>
+                        </div>
+                        <div>
+                            <img src={require("../assets/images/webIcons/ruby.png")} style={styles.techIcons}/>
+                            <h6>Ruby</h6>
+                        </div>
+                        <div>
+                            <img src={require("../assets/images/webIcons/rails.png")} style={styles.techIcons}/>
+                            <h6>Rails</h6>
+                        </div>
+                        <div>
+                        <img src={require("../assets/images/webIcons/postgres.png")} style={styles.techIcons}/>
+                            <h6>PostgreSQL</h6>
+                        </div>
+                        <div>
+                        <img src={require("../assets/images/webIcons/git.png")} style={styles.techIcons}/>
+                            <h6>Git</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -56,6 +85,18 @@ const styles = {
     },
     ul:{
         listStyleType: 'none',
+    },
+    techList:{
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'space-around',
+        flexWrap:'wrap',
+        width:'100%',
+
+    },
+    techIcons:{
+        height: '5rem',
+        width:'5rem'
     }
 }
 
