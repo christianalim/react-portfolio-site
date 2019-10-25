@@ -34,13 +34,16 @@ const Contact = () => {
 const styles = {
     container:{
         display:'grid',
-        gridTemplateColumns: '30% 40% 30%',
-        gridTemplateRows: '20% 50% 30%',
+        gridTemplateColumns: '10% 80% 10%',
+        
         backgroundColor:'#F7F7F2',
     },
     form:{
+        display:'flex',
         gridColumnStart: 2,
+        gridColumnEnd: 2,
         gridRowStart: 2,
+        width:'100%'
     },
     title:{
         gridColumnStart: 2,
@@ -53,7 +56,8 @@ const styles = {
     },
     fieldset:{
         borderRadius: 10,
-        backgroundColor:'white'
+        backgroundColor:'white',
+        width:'100%'
     },
     formInput:{
         borderBottomStyle: 'solid',
@@ -63,7 +67,7 @@ const styles = {
     },
     formInputHolder:{
         display:'flex',
-        justifyContent: 'space-between'
+        justifyContent: 'space-around'
     },
     submit:{
         width:'100%',

@@ -34,6 +34,10 @@ const About = () => {
                             <h6>React Native</h6>
                         </div>
                         <div>
+                            <img src={require("../assets/images/webIcons/redux.png")} style={styles.techIcons} alt="redux"/>
+                            <h6>Redux</h6>
+                        </div>
+                        <div>
                             <img src={require("../assets/images/webIcons/html.png")} style={styles.techIcons} alt="html5"/>
                             <h6>HTML5</h6>
                         </div>
