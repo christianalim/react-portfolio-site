@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Contact = () => {
+
+   
+
     return (
         <div style={styles.container}>
             <div style={styles.title}>
@@ -10,7 +13,7 @@ const Contact = () => {
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/christiananthonylim1@gmail.com" method="post">
                     <fieldset id="fs-frm-inputs" style={styles.fieldset}>
                         <div style={styles.formInputHolder}>
-                            <label for="full-name">Full Name</label>
+                            <label for="full-name">Name</label>
                             <input style={styles.formInput} type="text" name="name" id="full-name" placeholder="First and Last" required="" />
                             <label for="email-address">Email Address</label>
                             <input style={styles.formInput} type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" />
