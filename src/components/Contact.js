@@ -9,14 +9,14 @@ const Contact = () => {
             <div style={styles.title}>
                 <h1>Contact Me</h1>
             </div>
-            <div style={styles.form}>
-                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/christiananthonylim1@gmail.com" method="post">
+            <div style={styles.formHolder}>
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/christiananthonylim1@gmail.com" method="post" style={styles.form}>
                     <fieldset id="fs-frm-inputs" style={styles.fieldset}>
                         <div style={styles.formInputHolder}>
-                            <label for="full-name">Name</label>
-                            <input style={styles.formInput} type="text" name="name" id="full-name" placeholder="First and Last" required="" />
-                            <label for="email-address">Email Address</label>
-                            <input style={styles.formInput} type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" />
+                            {/* <label for="full-name">Name</label> */}
+                            <input style={styles.formInput} type="text" name="name" id="full-name" placeholder="Name" required="" />
+                            {/* <label for="email-address">Email Address</label> */}
+                            <input style={styles.formInput} type="email" name="_replyto" id="email-address" placeholder="email" required="" />
                         </div>
                         <br/>
                         <label for="message">Message</label>
@@ -41,12 +41,17 @@ const styles = {
         
         backgroundColor:'#F7F7F2',
     },
-    form:{
+    formHolder:{
         display:'flex',
         gridColumnStart: 2,
         gridColumnEnd: 2,
         gridRowStart: 2,
-        width:'100%'
+        width:'100%',
+        justifyContent:'center',
+        paddingBottom: 30
+    },
+    form:{
+        width:'60%'
     },
     title:{
         gridColumnStart: 2,
