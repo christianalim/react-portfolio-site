@@ -9,8 +9,14 @@ const RetroJS = () => {
                 </div>
                 <h1>RetroJS</h1>
                 <div style={styles.linkHolder}>
-                    <a href="https://retrojs-frontend.herokuapp.com">Live Demo</a>
-                    <a href="https://github.com/christianalim/retroJS">Github</a>
+                    <a href="https://retrojs-frontend.herokuapp.com" style={styles.a}>
+                        <img src={require("../assets/images/webIcons/browser.png")} style={styles.techIcons} alt="browser icon"/>
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/christianalim/retroJS" style={styles.a}>
+                        <img src={require("../assets/images/webIcons/github.png")} style={styles.techIcons} alt="github frontend"/>
+                        Github
+                    </a>
                 </div>
 
                 <p>RetroJS is a 2D table-tennis game made using JavaScript and Ruby on Rails. </p>
@@ -61,7 +67,17 @@ const styles= {
         display:'flex',
         width:'80%',
         justifyContent:'space-around'
-    }
+    },
+    techIcons:{
+        height: '3rem',
+        width:'3rem'
+    },
+    a:{
+        textDecoration: 'none',
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center'
+    },
 }
 
 

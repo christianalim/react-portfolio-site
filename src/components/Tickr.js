@@ -11,9 +11,21 @@ const Tickr = () => {
                 </div>
                 <h2>Tickr</h2>
                 <div style={styles.linkHolder}>
-                    <a href="https://tickr-stock.herokuapp.com/">Live Demo</a>
-                    <a href="https://github.com/christianalim/Tickr-frontend">Github Front-End</a>
-                    <a href="https://github.com/christianalim/Tickr-backend">Github Back-End</a>
+                    <a href="https://tickr-stock.herokuapp.com/"
+                    style={styles.a}
+                    >
+                        <img src={require("../assets/images/webIcons/browser.png")} style={styles.techIcons} alt="browser icon"/>
+
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/christianalim/Tickr-frontend" style={styles.a}>
+                        <img src={require("../assets/images/webIcons/github.png")} style={styles.techIcons} alt="github frontend"/>
+                        Github Front-End
+                    </a>
+                    <a href="https://github.com/christianalim/Tickr-backend" style={styles.a}>
+                        <img src={require("../assets/images/webIcons/github.png")} style={styles.techIcons} alt="github backend"/>
+                        Github Back-End
+                    </a>
                 </div>
                 <p>TICKR is a web application that allows users to track their stock portfolio's performance in real time. It was built with React and Ruby on Rails.
 
@@ -67,7 +79,17 @@ const styles= {
         display:'flex',
         width:'80%',
         justifyContent:'space-around'
-    }
+    },
+    techIcons:{
+        height: '3rem',
+        width:'3rem'
+    },
+    a:{
+        textDecoration: 'none',
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center'
+    },
 }
 
 
