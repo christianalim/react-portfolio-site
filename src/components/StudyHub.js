@@ -11,9 +11,19 @@ const StudyHub = () => {
                 <div style={styles.description}>
                     <h1>StudyHub</h1>
                     <div style={styles.linkHolder}>
-                        <a href="https://www.youtube.com/watch?v=_i2snhJvMtQ">Demo Video</a>
-                        <a href="https://github.com/christianalim/studyhub-frontend">Github Front-end</a>
-                        <a href="https://github.com/christianalim/studyhub-backend">Github Back-end</a>
+                        <a href="https://www.youtube.com/watch?v=_i2snhJvMtQ" style={styles.a}>
+                            <img src={require("../assets/images/webIcons/youtube.png")} style={styles.techIcons} alt="youtube"/>
+                            Demo Video
+                        </a>
+                        
+                        <a href="https://github.com/christianalim/studyhub-frontend" style={styles.a}>
+                        <img src={require("../assets/images/webIcons/github.png")} style={styles.techIcons} alt="github front-end"/>
+                            Github Front-end
+                        </a>
+                        <a href="https://github.com/christianalim/studyhub-backend" style={styles.a}>
+                            <img src={require("../assets/images/webIcons/github.png")} style={styles.techIcons} alt="github backend"/>
+                            Github Back-end
+                        </a>
                     </div>
                     <p>StudyHub is an iOS app that empowers people to find public workspaces. I built it using React Native and Redux for the front-end, and Ruby on Rails with PostgreSQL for the back end. This project also utilizes Google Maps and Cloudinary APIs for location services and image hosting.
                     </p>
@@ -41,6 +51,12 @@ const StudyHub = () => {
 }
 
 const styles= {
+    a:{
+        textDecoration: 'none',
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center'
+    },
     projectOne:{
         display:'flex',
         flexDirection:'row',
@@ -71,7 +87,11 @@ const styles= {
     linkHolder:{
         display:'flex',
         justifyContent:'space-around'
-    }
+    },
+    techIcons:{
+        height: '3rem',
+        width:'3rem'
+    },
 }
 
 
