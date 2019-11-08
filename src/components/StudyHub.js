@@ -27,22 +27,23 @@ const StudyHub = () => {
                     </div>
                     <p>StudyHub is an iOS app that empowers people to find public workspaces. I built it using React Native and Redux for the front-end, and Ruby on Rails with PostgreSQL for the back end. This project also utilizes Google Maps and Cloudinary APIs for location services and image hosting.
                     </p>
-                    <div style={{alignText:'left'}}>
-                        <ul>
-                            <li>
-                                Created and designed user interface using React Native and Redux
-                            </li>
-                            <li>
-                                Developed Rails API and PostgreSQL backend with endpoints for users, reviews, hubs, and images
-                            </li>
-                            <li>
-                                Utilized Google Maps API and Cloudinary API for location services and cloud image hosting to display user/hubs locations
-                            </li>
-                            <li>
-                                Employed use of JSON Web Tokens and AsyncStorage to store encrypted user information client-side
-                            </li>
-                        </ul>
+                    <div style={styles.list}>
+                    <ul>
+                        <li>
+                            Created and designed user interface using React Native and Redux
+                        </li>
+                        <li>
+                            Developed Rails API and PostgreSQL backend with endpoints for users, reviews, hubs, and images
+                        </li>
+                        <li>
+                            Utilized Google Maps API and Cloudinary API for location services and cloud image hosting to display user/hubs locations
+                        </li>
+                        <li>
+                            Employed use of JSON Web Tokens and AsyncStorage to store encrypted user information client-side
+                        </li>
+                    </ul>
                     </div>
+                  
                 </div>
                 
             </div>
@@ -92,6 +93,10 @@ const styles= {
         height: '3rem',
         width:'3rem'
     },
+    list:{
+        width:'100%',
+        textAlign:'left'
+    }
 }
 
 
