@@ -22,6 +22,10 @@ const About = () => {
                     <h4>Here are a few technologies I've been working with:</h4>
                     <div style={styles.techList}>
                         <div>
+                            <img src={require("../assets/images/webIcons/java.png")} style={styles.techIcons} alt="javascript"/>
+                            <h6>Java </h6>
+                        </div>
+                        <div>
                             <img src={require("../assets/images/webIcons/javascripticon.png")} style={styles.techIcons} alt="javascript"/>
                             <h6>JavaScript (ES6+)</h6>
                         </div>
