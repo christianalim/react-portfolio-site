@@ -94,7 +94,6 @@ const styles= {
         width:'3rem'
     },
     list:{
-        width:'100%',
         textAlign:'left'
     }
 }
