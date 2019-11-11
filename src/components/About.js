@@ -19,7 +19,7 @@ const About = () => {
                     </div>
                 </div>
                 <div style={styles.technologies}>
-                    <h4>Here are a few technologies I've been working with:</h4>
+                    <h3>Technologies I've been using lately:</h3>
                     <div style={styles.techList}>
                         <div>
                             <img src={require("../assets/images/webIcons/java.png")} style={styles.techIcons} alt="javascript"/>
