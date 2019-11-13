@@ -27,6 +27,9 @@ const Tickr = () => {
                         Github Back-End
                     </a>
                 </div>
+                <div style={styles.listHolder}>
+
+                
                 <p>TICKR is a web application that allows users to track their stock portfolio's performance in real time. It was built with React and Ruby on Rails.
 
                 </p>
@@ -44,6 +47,7 @@ const Tickr = () => {
                     Incorporated multiple third-party APIs to fetch real-time stock price data and stock-specific news
                     </li>
                 </ul>
+                </div>
             </div>
            
         </div>
@@ -90,6 +94,10 @@ const styles= {
         flexDirection:'column',
         alignItems:'center'
     },
+    listHolder:{
+        width:'80%',
+        
+    }
 }
 
 
