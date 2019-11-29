@@ -22,7 +22,11 @@ const About = () => {
                     <h3>Technologies I've been using lately:</h3>
                     <div style={styles.techList}>
                         <div>
-                            <img src={require("../assets/images/webIcons/java.png")} style={styles.techIcons} alt="javascript"/>
+                            <img src={require("../assets/images/webIcons/python.png")} style={styles.techIcons} alt="python"/>
+                            <h6>Python </h6>
+                        </div>
+                        <div>
+                            <img src={require("../assets/images/webIcons/java.png")} style={styles.techIcons} alt="java"/>
                             <h6>Java </h6>
                         </div>
                         <div>
