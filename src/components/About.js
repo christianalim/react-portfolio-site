@@ -19,7 +19,7 @@ const About = () => {
                     </div>
                 </div>
                 <div style={styles.technologies}>
-                    <h3>Technologies I've been using lately:</h3>
+                    <h3>Technologies/Skills:</h3>
                     <div style={styles.techList}>
                         <div>
                             <img src={require("../assets/images/webIcons/python.png")} style={styles.techIcons} alt="python"/>
